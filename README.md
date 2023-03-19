@@ -88,7 +88,7 @@ curl --location 'http://localhost:5000/api/user/login' \
 
 
 
-**3) POST /blog**  
+**4) POST /blog**  
 Retrieve all the users.  
 
 **Parameters:**  
