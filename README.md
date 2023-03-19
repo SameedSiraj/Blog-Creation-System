@@ -1,8 +1,7 @@
 # Blog-Creation-System
 This application allows users to create, read, update, and delete blogs. It also includes authentication and authorization features, where user passwords are hashed to ensure secure access to user data.
   
-  
-    
+<br><br>  
 **1) GET /user**  
 Retrieve all the users.  
 
@@ -31,9 +30,8 @@ none
     ]
 } 
 ```  
-  
-  
-     
+
+<br><br>
 **2) POST /user/signup**  
 Retrieve all the users.  
 
