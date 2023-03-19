@@ -149,7 +149,7 @@ curl --location 'http://localhost:5000/api/blog/add' \
 ``` 
 
 <br><br>
-**6) PUT /blog/update/641661a06d8ae7829950d5a8**  
+**6) PUT /blog/update/{id}**  
 Update a specific blog post with given ID.  
 
 **Parameters:**  
@@ -180,7 +180,7 @@ curl --location --request PUT 'http://localhost:5000/api/blog/update/641661a06d8
 ``` 
 
 <br><br>
-**7) GET /blog/641661a06d8ae7829950d5a8**  
+**7) GET /blog/{id}**  
 Retrieve a specific blog post by its ID.  
 
 **Parameters:**  
@@ -206,7 +206,7 @@ curl --location 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
 ``` 
 
 <br><br>
-**8) DELETE /blog/640e1ff905939e9c49e6c84b**  
+**8) DELETE /blog/{id}**  
 Delete a specific blog post by its ID.  
 
 **Parameters:**  
@@ -225,7 +225,7 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
 ``` 
 
 <br><br>
-**9) GET /blog/user/640e2663748dbf72fc866092**  
+**9) GET /blog/user/{id}**  
 Retrieve all blog posts created by a given user.  
 
 **Parameters:**  
