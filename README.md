@@ -114,3 +114,36 @@ curl --location 'http://localhost:5000/api/blog'
     ]
 }
 ```  
+
+
+**5) POST /blog/add**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location 'http://localhost:5000/api/blog/add' \
+--header 'Content-Type: application/json' \
+--data '{
+    "title": "My new Blog",
+    "description": "This is my first blog",
+    "image": "xxxx",
+    "user" : "640e2663748dbf72fc866092"
+}'
+```  
+
+**Example response:**    
+```
+{
+    "blog": {
+        "title": "My new Blog",
+        "description": "This is my first blog",
+        "image": "xxxx",
+        "user": "640e2663748dbf72fc866092",
+        "_id": "641661a06d8ae7829950d5a8",
+        "__v": 0
+    }
+}
+``` 
