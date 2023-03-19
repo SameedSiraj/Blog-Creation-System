@@ -95,7 +95,7 @@ curl --location 'http://localhost:5000/api/user/login' \
 
 <br><br>
 **4) GET /blog**  
-Retrieve all blog posts created by the logged-in user.  
+Retrieve all blog posts in the system.  
 
 **Parameters:**  
 none
@@ -123,7 +123,7 @@ curl --location 'http://localhost:5000/api/blog'
 
 <br><br>
 **5) POST /blog/add**  
-Add a new blog post to the logged-in user's list of blog posts.  
+Create a new blog post.  
 
 **Parameters:**  
 none
@@ -156,7 +156,7 @@ curl --location 'http://localhost:5000/api/blog/add' \
 
 <br><br>
 **6) PUT /blog/update/{id}**  
-Update a specific blog post with given ID.  
+Update a specific blog post by given ID.  
 
 **Parameters:**  
 **id** (required): The ID of the blog to update.
