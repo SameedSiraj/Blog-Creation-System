@@ -229,7 +229,7 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
 Retrieve all the users.  
 
 **Parameters:**  
-none
+**id** (required): The ID of the user whose blogs have to be reterieve.
 
 **Example request:**   
 ```
