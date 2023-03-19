@@ -2,9 +2,10 @@
 This application allows users to create, read, update, and delete blogs. It also includes authentication and authorization features, where user passwords are hashed to ensure secure access to user data.
 
 ### Tools and Technologies:
-Node JS, MongoDB
+Node JS, MongoDB, Visual Studio Code
 
 ### APIs Description:
+Our system includes the following APIs:
 
 <br><br>
 **1) GET /user**  
