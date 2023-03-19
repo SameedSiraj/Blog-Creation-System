@@ -205,3 +205,27 @@ curl --location 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
     }
 }
 ``` 
+
+
+
+**8) DELETE /blog/640e1ff905939e9c49e6c84b**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
+```  
+
+**Example response:**    
+```
+{
+    "message": "Successfully Delete"
+}
+``` 
+
+
+
+
