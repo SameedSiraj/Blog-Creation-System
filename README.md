@@ -9,10 +9,11 @@ Retrieve all the users.
 none
 
 **Example request:**   
-```curl --location 'http://localhost:5000/api/user/'```  
+``` curl --location 'http://localhost:5000/api/user/' ```  
 
 **Example response:**    
-```{
+``` 
+{
     "users": [
         {
             "_id": "640e2663748dbf72fc866092",
@@ -27,4 +28,4 @@ none
             "__v": 3
         }
     ]
-}```  
+} ```  
