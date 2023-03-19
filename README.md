@@ -61,3 +61,27 @@ curl --location 'http://localhost:5000/api/user/signup' \
     }
 }
 ```  
+
+
+**3) POST /user/login**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location 'http://localhost:5000/api/user/login' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "email":"Test1@gmail.com",
+    "password":"Test54@#123"
+}'
+```  
+
+**Example response:**    
+```
+{
+    "message": "Login Successfull"
+}
+```  
