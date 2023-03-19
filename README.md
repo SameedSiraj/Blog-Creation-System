@@ -29,3 +29,33 @@ none
     ]
 } 
 ```  
+
+
+**1) GET /user**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+``` curl --location 'http://localhost:5000/api/user/' ```  
+
+**Example response:**    
+``` 
+{
+    "users": [
+        {
+            "_id": "640e2663748dbf72fc866092",
+            "name": "Sameed",
+            "email": "test3@gmail.com",
+            "password": "$2a$10$Cd/Vc58MJfnwIQWucHDMlu9TenkPJwKCjQwAmyyxXFPqWGqFqQo/S",
+            "blogs": [
+                "640e2671748dbf72fc866095",
+                "640e2674748dbf72fc86609a",
+                "640e2677748dbf72fc86609e"
+            ],
+            "__v": 3
+        }
+    ]
+} 
+```  
