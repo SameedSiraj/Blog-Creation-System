@@ -4,6 +4,8 @@ This application allows users to create, read, update, and delete blogs. It also
 ### Tools and Technologies:
 Node JS, MongoDB
 
+### APIs Description:
+
 <br><br>
 **1) GET /user**  
 Retrieve all the users.  
