@@ -24,7 +24,7 @@ none
         {
             "_id": "640e2663748dbf72fc866092",
             "name": "Sameed",
-            "email": "test3@gmail.com",
+            "email": "sameed1@gmail.com",
             "password": "$2a$10$Cd/Vc58MJfnwIQWucHDMlu9TenkPJwKCjQwAmyyxXFPqWGqFqQo/S",
             "blogs": [
                 "640e2671748dbf72fc866095",
@@ -111,8 +111,8 @@ curl --location 'http://localhost:5000/api/blog'
     "blogs": [
         {
             "_id": "640e2677748dbf72fc86609e",
-            "title": "My ne Blog",
-            "description": "This is my firs blog",
+            "title": "My new Blog",
+            "description": "This is my first blog",
             "image": "xxxx",
             "user": "640e2663748dbf72fc866092",
             "__v": 0
@@ -253,8 +253,8 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
         "blogs": [
             {
                 "_id": "640e2671748dbf72fc866095",
-                "title": "My ne Blog",
-                "description": "This is my firs blog",
+                "title": "My new Blog",
+                "description": "This is my first blog",
                 "image": "xxxx",
                 "user": "640e2663748dbf72fc866092",
                 "__v": 0
