@@ -38,7 +38,7 @@ Retrieve all the users.
 none
 
 **Example request:**   
-``` 
+```
 curl --location 'http://localhost:5000/api/user/signup' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -49,7 +49,7 @@ curl --location 'http://localhost:5000/api/user/signup' \
 ```  
 
 **Example response:**    
-``` 
+```
 {
     "user": {
         "name": "Test1",
