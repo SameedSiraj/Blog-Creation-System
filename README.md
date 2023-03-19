@@ -1,7 +1,7 @@
 # Blog-Creation-System
-#### Tools and Technologies:
-Node JS, Mongo DB
-
+### Tools and Technologies:
+Node JS, MongoDB
+### Project Description:
 This application allows users to create, read, update, and delete blogs. It also includes authentication and authorization features, where user passwords are hashed to ensure secure access to user data.
 
 <br><br>
