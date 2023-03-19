@@ -33,7 +33,7 @@ none
 
 <br><br>
 **2) POST /user/signup**  
-Retrieve all the users.  
+Create a new user account with a unique email address and hashed password.   
 
 **Parameters:**  
 none
@@ -65,7 +65,7 @@ curl --location 'http://localhost:5000/api/user/signup' \
 
 <br><br>
 **3) POST /user/login**  
-Retrieve all the users.  
+Log in to an existing user account with a valid email and password.    
 
 **Parameters:**  
 none
@@ -88,8 +88,8 @@ curl --location 'http://localhost:5000/api/user/login' \
 ```  
 
 <br><br>
-**4) POST /blog**  
-Retrieve all the users.  
+**4) GET /blog**  
+Retrieve all blog posts created by the logged-in user.  
 
 **Parameters:**  
 none
@@ -117,7 +117,7 @@ curl --location 'http://localhost:5000/api/blog'
 
 <br><br>
 **5) POST /blog/add**  
-Retrieve all the users.  
+Add a new blog post to the logged-in user's list of blog posts.  
 
 **Parameters:**  
 none
@@ -150,9 +150,11 @@ curl --location 'http://localhost:5000/api/blog/add' \
 
 <br><br>
 **6) PUT /blog/update/641661a06d8ae7829950d5a8**  
-Retrieve all the users.  
+Update a specific blog post with given ID  
 
 **Parameters:**  
+None  
+
 **id** (required): The ID of the blog to update.
 
 **Example request:**   
