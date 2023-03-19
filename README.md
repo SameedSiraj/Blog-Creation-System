@@ -7,5 +7,5 @@ Retrieve all the users.
 ## Parameters:
 none
 ## Example request:
-'''curl --location 'http://localhost:5000/api/user/''''
+''' curl --location 'http://localhost:5000/api/user/' '''
 ## Example response:
