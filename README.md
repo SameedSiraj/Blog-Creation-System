@@ -153,7 +153,7 @@ curl --location 'http://localhost:5000/api/blog/add' \
 Retrieve all the users.  
 
 **Parameters:**  
-id (required): The ID of the blog to update.
+*id* (required): The ID of the blog to update.
 
 **Example request:**   
 ```
