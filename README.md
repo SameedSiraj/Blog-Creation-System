@@ -4,8 +4,8 @@ This application allows users to create, read, update, and delete blogs. It also
 
 ## GET /user
 Retrieve all the users.
-Parameters:
+## Parameters:
 none
-Example request:
+## Example request:
 curl --location 'http://localhost:5000/api/user/'
-Example response:
+## Example response:
