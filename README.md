@@ -179,3 +179,29 @@ curl --location --request PUT 'http://localhost:5000/api/blog/update/641661a06d8
     }
 }
 ``` 
+
+
+**7) GET /blog/641661a06d8ae7829950d5a8**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
+```  
+
+**Example response:**    
+```
+{
+    "blog": {
+        "_id": "641661a06d8ae7829950d5a8",
+        "title": "Updated Blog",
+        "description": "This is my first updated blog",
+        "image": "xxxx",
+        "user": "640e2663748dbf72fc866092",
+        "__v": 0
+    }
+}
+``` 
