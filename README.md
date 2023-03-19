@@ -31,31 +31,33 @@ none
 ```  
 
 
-**1) GET /user**  
+**1) POST /user/signup**  
 Retrieve all the users.  
 
 **Parameters:**  
 none
 
 **Example request:**   
-``` curl --location 'http://localhost:5000/api/user/' ```  
+``` 
+curl --location 'http://localhost:5000/api/user/signup' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name":"Test1",
+    "email":"Test1@gmail.com",
+    "password":"Test54@#123"
+}'
+```  
 
 **Example response:**    
 ``` 
 {
-    "users": [
-        {
-            "_id": "640e2663748dbf72fc866092",
-            "name": "Sameed",
-            "email": "test3@gmail.com",
-            "password": "$2a$10$Cd/Vc58MJfnwIQWucHDMlu9TenkPJwKCjQwAmyyxXFPqWGqFqQo/S",
-            "blogs": [
-                "640e2671748dbf72fc866095",
-                "640e2674748dbf72fc86609a",
-                "640e2677748dbf72fc86609e"
-            ],
-            "__v": 3
-        }
-    ]
-} 
+    "user": {
+        "name": "Test1",
+        "email": "Test1@gmail.com",
+        "password": "$2a$10$/u/hfnYf8OVo.UT0yCm.HuXNOlAbg56vYfcuJ.gNJVK2Mzss8La0.",
+        "blogs": [],
+        "_id": "64165db86d8ae7829950d5a3",
+        "__v": 0
+    }
+}
 ```  
