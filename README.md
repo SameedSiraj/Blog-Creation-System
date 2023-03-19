@@ -4,6 +4,7 @@ This application allows users to create, read, update, and delete blogs. It also
 
 ## GET /user  
 Retrieve all the users.  
+
 **Parameters:**  
 none  
 **Example request:**   
