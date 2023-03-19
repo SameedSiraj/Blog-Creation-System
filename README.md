@@ -7,7 +7,7 @@ Node JS, MongoDB, Visual Studio Code
 ### APIs Description:
 Our system includes the following APIs:
 
-<br>
+<br><br>
 **1) GET /user**  
 Retrieve all the users.  
 
