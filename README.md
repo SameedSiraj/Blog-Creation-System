@@ -147,3 +147,35 @@ curl --location 'http://localhost:5000/api/blog/add' \
     }
 }
 ``` 
+
+
+
+**6) PUT /blog/update/641661a06d8ae7829950d5a8**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location --request PUT 'http://localhost:5000/api/blog/update/641661a06d8ae7829950d5a8' \
+--header 'Content-Type: application/json' \
+--data '{
+    "title": "Updated Blog",
+    "description": "This is my first updated blog"
+}'
+```  
+
+**Example response:**    
+```
+{
+    "blog": {
+        "_id": "641661a06d8ae7829950d5a8",
+        "title": "My new Blog",
+        "description": "This is my first blog",
+        "image": "xxxx",
+        "user": "640e2663748dbf72fc866092",
+        "__v": 0
+    }
+}
+``` 
