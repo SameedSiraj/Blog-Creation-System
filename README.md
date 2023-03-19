@@ -1,7 +1,7 @@
 # Blog-Creation-System
 This application allows users to create, read, update, and delete blogs. It also includes authentication and authorization features, where user passwords are hashed to ensure secure access to user data.
 
-<br><br>  
+<br><br>
 **1) GET /user**  
 Retrieve all the users.  
 
@@ -63,7 +63,7 @@ curl --location 'http://localhost:5000/api/user/signup' \
 }
 ```  
 
-
+<br><br>
 **3) POST /user/login**  
 Retrieve all the users.  
 
@@ -87,8 +87,7 @@ curl --location 'http://localhost:5000/api/user/login' \
 }
 ```  
 
-
-
+<br><br>
 **4) POST /blog**  
 Retrieve all the users.  
 
@@ -116,7 +115,7 @@ curl --location 'http://localhost:5000/api/blog'
 }
 ```  
 
-
+<br><br>
 **5) POST /blog/add**  
 Retrieve all the users.  
 
@@ -149,8 +148,7 @@ curl --location 'http://localhost:5000/api/blog/add' \
 }
 ``` 
 
-
-
+<br><br>
 **6) PUT /blog/update/641661a06d8ae7829950d5a8**  
 Retrieve all the users.  
 
@@ -181,7 +179,7 @@ curl --location --request PUT 'http://localhost:5000/api/blog/update/641661a06d8
 }
 ``` 
 
-
+<br><br>
 **7) GET /blog/641661a06d8ae7829950d5a8**  
 Retrieve all the users.  
 
@@ -207,8 +205,7 @@ curl --location 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
 }
 ``` 
 
-
-
+<br><br>
 **8) DELETE /blog/640e1ff905939e9c49e6c84b**  
 Retrieve all the users.  
 
@@ -227,8 +224,7 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
 }
 ``` 
 
-
-
+<br><br>
 **9) GET /blog/user/640e2663748dbf72fc866092**  
 Retrieve all the users.  
 
