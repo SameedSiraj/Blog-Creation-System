@@ -228,7 +228,7 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
 
 
 
-**8) GET /blog/user/640e2663748dbf72fc866092**  
+**9) GET /blog/user/640e2663748dbf72fc866092**  
 Retrieve all the users.  
 
 **Parameters:**  
