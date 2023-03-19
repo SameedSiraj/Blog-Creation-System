@@ -228,4 +228,36 @@ curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae78
 
 
 
+**8) GET /blog/user/640e2663748dbf72fc866092**  
+Retrieve all the users.  
 
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location --request DELETE 'http://localhost:5000/api/blog/641661a06d8ae7829950d5a8'
+```  
+
+**Example response:**    
+```
+{
+    "blogs": {
+        "_id": "640e2663748dbf72fc866092",
+        "name": "Sameed",
+        "email": "test3@gmail.com",
+        "password": "$2a$10$Cd/Vc58MJfnwIQWucHDMlu9TenkPJwKCjQwAmyyxXFPqWGqFqQo/S",
+        "blogs": [
+            {
+                "_id": "640e2671748dbf72fc866095",
+                "title": "My ne Blog",
+                "description": "This is my firs blog",
+                "image": "xxxx",
+                "user": "640e2663748dbf72fc866092",
+                "__v": 0
+            }
+        ],
+        "__v": 5
+    }
+}
+``` 
