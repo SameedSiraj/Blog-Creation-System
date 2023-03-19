@@ -5,9 +5,8 @@ This application allows users to create, read, update, and delete blogs. It also
 Node JS, MongoDB, Visual Studio Code
 
 ### APIs Description:
-Our system includes the following APIs:
+Our system includes the following APIs:  
 
-<br>
 **1) GET /user**  
 Retrieve all the users.  
 
