@@ -85,3 +85,32 @@ curl --location 'http://localhost:5000/api/user/login' \
     "message": "Login Successfull"
 }
 ```  
+
+
+
+**3) POST /blog**  
+Retrieve all the users.  
+
+**Parameters:**  
+none
+
+**Example request:**   
+```
+curl --location 'http://localhost:5000/api/blog'
+```  
+
+**Example response:**    
+```
+{
+    "blogs": [
+        {
+            "_id": "640e2677748dbf72fc86609e",
+            "title": "My ne Blog",
+            "description": "This is my firs blog",
+            "image": "xxxx",
+            "user": "640e2663748dbf72fc866092",
+            "__v": 0
+        }
+    ]
+}
+```  
